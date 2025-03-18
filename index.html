@@ -20,12 +20,12 @@
         <section class="input-section">
             <h2 class="section-title">Write your bro's (or sis') names</h2>
             <div class="input-wrapper">
-                <input type="text" id="amigo" class="input-name" placeholder="Escribe un nombre">
+                <input type="text" id="friendInput" class="input-name" placeholder="Escribe un nombre">
                 <button class="button-add" onclick="addFriend()">Add</button>
             </div>
            
-            <ul id="listaAmigos" class="name-list" aria-labelledby="friendList" role="list"></ul>
-            <ul id="resultado" class="result-list" aria-live="polite"></ul>
+            <ul id="friendList" class="name-list" aria-labelledby="friendList" role="list"></ul>
+            <ul id="result" class="result-list" aria-live="polite"></ul>
 
             <div class="button-container">
                 <button class="button-draw" onclick="raffleFriend()" aria-label="Sortear amigo secreto">
